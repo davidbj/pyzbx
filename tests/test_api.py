@@ -1,8 +1,4 @@
 #!/usr/bin/env python
-#import sys
-#import os
-#pyzbx = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-#sys.path.append(pyzbx)
 import pyzbx
 import unittest
 import httpretty

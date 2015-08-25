@@ -1,12 +1,4 @@
 #!/usr/bin/env python
-#import setuptools
-#
-#try:
-#    import multiprocessing
-#except ImportError:
-#    pass
-#
-#setuptools.setup(setup_requires=['pbr'], pbr=True)
 import codecs
 import os
 import sys
