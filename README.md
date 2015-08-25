@@ -15,7 +15,9 @@ pyzbx 使用python开发获取zabbix 源数据的API Application.
 
 
 ###安装###
+```sh
 $ pip install pyzbx
+```
 
 ###实例###
     ```sh
