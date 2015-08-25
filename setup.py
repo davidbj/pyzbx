@@ -17,7 +17,7 @@ PACKAGES = ["pyzbx",]
 
 DESCRIPTION = "python get zabbix data api interface."
 
-LONG_DESCRIPTION = read("README.md")
+LONG_DESCRIPTION = read("README.rst")
 
 KEYWORDS = "get zabbix data api."
 
