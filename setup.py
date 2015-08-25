@@ -27,7 +27,7 @@ AUTHOR_EMAIL = "davidbjhd@gmail.com"
 
 URL = "https://github.com/davidbj/pyzbx"
 
-VERSION = "0.0.1"
+VERSION = "0.0.2"
 
 LICENSE = "MIT"
 
