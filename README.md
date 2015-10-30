@@ -3,7 +3,7 @@
 pyzbx 使用python开发获取zabbix 源数据的API Application.
 
 ###版本###
-0.0.3
+0.0.4
 
 ###功能###
 目前该APP提供一些获取zabbix 数据的interface,具体功能如下:

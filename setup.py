@@ -8,11 +8,8 @@ try:
 except:
     from distutils.core import setup
 
-#def read(fname):
-#    return codecs.open(os.path.join(os.path.dirname(__file__), fname)).read()
-
 NAME = "pyzbx"
-PACKAGES = ["pyzbx",]
+PACKAGES = ["pyzbx", ]
 DESCRIPTION = "python get zabbix data api interface."
 #LONG_DESCRIPTION = read("README")
 LONG_DESCRIPTION = open('README.md').read()
@@ -24,22 +21,22 @@ VERSION = "0.0.3"
 LICENSE = "MIT"
 
 setup(
-    name = NAME,
-    version = VERSION,
-    description = DESCRIPTION,
-    long_description = LONG_DESCRIPTION,
-    classifiers = [
+    name=NAME,
+    version=VERSION,
+    description=DESCRIPTION,
+    long_description=LONG_DESCRIPTION,
+    classifiers=[
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python',
         'Intended Audience :: Developers',
         'Operating System :: OS Independent',
     ],
-    keywords = KEYWORDS,
-    author = AUTHOR,
-    author_email = AUTHOR_EMAIL,
-    url = URL,
-    license = LICENSE,
-    packages = PACKAGES,
-    include_package_data = True,
-    zip_safe = True,
+    keywords=KEYWORDS,
+    author=AUTHOR,
+    author_email=AUTHOR_EMAIL,
+    url=URL,
+    license=LICENSE,
+    packages=PACKAGES,
+    include_package_data=True,
+    zip_safe=True,
 )
